@@ -84,12 +84,6 @@ python main.py ingest
 python main.py chat
 ```
 
-**Web UI:**
-
-```bash
-streamlit run streamlit_app.py
-```
-
 ## 💡 Features
 
 ### Smart Citation Extraction
@@ -138,11 +132,6 @@ SOURCES USED:
 ollama pull llama3.2
 ollama serve
 ```
-
-### Cloud LLM (Groq - Free)
-
-1. Get API key at [console.groq.com](https://console.groq.com)
-2. Enter in Streamlit sidebar
 
 ## 📝 Thesis Context
 

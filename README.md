@@ -1,9 +1,3 @@
----
-noteId: "57c2b0b0e62911f08f69a10f262c5b20"
-tags: []
-
----
-
 # 📚 Thesis RAG System
 
 A Retrieval-Augmented Generation (RAG) system for academic research, built for my Master's thesis on **Explainable AI for LLMs**.
@@ -17,13 +11,13 @@ A Retrieval-Augmented Generation (RAG) system for academic research, built for m
 
 ## 🛠️ Tech Stack
 
-| Component | Technology |
-|-----------|------------|
+| Component    | Technology                            |
+| ------------ | ------------------------------------- |
 | Vector Store | FAISS (Facebook AI Similarity Search) |
-| Embeddings | `nomic-embed-text` (768-dim) |
-| LLM | Llama 3.2 (local) or Groq API (cloud) |
-| Frontend | Streamlit |
-| Language | Python 3.12 |
+| Embeddings   | `nomic-embed-text` (768-dim)          |
+| LLM          | Llama 3.2 (local) or Groq API (cloud) |
+| Frontend     | Streamlit                             |
+| Language     | Python 3.12                           |
 
 ## 🏗️ Architecture
 
@@ -70,6 +64,7 @@ pip install -r requirements.txt
 ### 2. Add Your Papers
 
 Place PDFs in `data/pdfs/` with naming convention:
+
 ```
 001_authorYEARtitle_YEAR.pdf
 # Example: 018_wang2023interpretability_2023.pdf
@@ -84,11 +79,13 @@ python main.py ingest
 ### 4. Query
 
 **CLI:**
+
 ```bash
 python main.py chat
 ```
 
 **Web UI:**
+
 ```bash
 streamlit run streamlit_app.py
 ```
@@ -96,7 +93,9 @@ streamlit run streamlit_app.py
 ## 💡 Features
 
 ### Smart Citation Extraction
+
 Filenames are parsed for metadata:
+
 ```
 049_bills2023language_2023.pdf
      ↓
@@ -104,9 +103,10 @@ Author: Bills, Year: 2023
 ```
 
 ### Source-Grounded Responses
+
 ```
-Superposition allows neural networks to represent 
-more features than neurons [Source 1]. This is 
+Superposition allows neural networks to represent
+more features than neurons [Source 1]. This is
 demonstrated through toy models [Source 2].
 
 ---
@@ -116,28 +116,31 @@ SOURCES USED:
 ```
 
 ### Multiple Input Types
+
 - ✅ PDF papers (PyPDF2)
 - ✅ Web articles (requests + BeautifulSoup)
 - ✅ YouTube transcripts (youtube-transcript-api)
 
 ## 📊 Performance
 
-| Metric | Value |
-|--------|-------|
-| Indexed chunks | ~6,000 |
+| Metric          | Value                      |
+| --------------- | -------------------------- |
+| Indexed chunks  | ~6,000                     |
 | Embedding model | nomic-embed-text (768-dim) |
-| Search latency | <100ms |
-| Response time | 30-60s (local Llama) |
+| Search latency  | <100ms                     |
+| Response time   | 30-60s (local Llama)       |
 
 ## 🔧 Configuration
 
 ### Local LLM (Ollama)
+
 ```bash
 ollama pull llama3.2
 ollama serve
 ```
 
 ### Cloud LLM (Groq - Free)
+
 1. Get API key at [console.groq.com](https://console.groq.com)
 2. Enter in Streamlit sidebar
 
@@ -148,6 +151,7 @@ This system was built for my Master's thesis:
 > **"Explainable AI for LLMs: Causally Grounded Mechanistic Interpretability and Concise Natural-Language Explanations"**
 
 Key research areas covered:
+
 - Mechanistic Interpretability (IOI circuits, superposition)
 - Feature Attribution (SHAP, LIME, Integrated Gradients)
 - Evaluation Benchmarks (ERASER, e-SNLI)
@@ -162,4 +166,4 @@ This is a personal thesis project. Feel free to fork and adapt for your own rese
 
 ---
 
-*Built with ❤️ for explainable AI research*
+_Built with ❤️ for explainable AI research_

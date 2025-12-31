@@ -1,0 +1,17 @@
+# Private research data
+data/pdfs/
+data/web_articles/
+data/youtube_transcripts/
+data/vector_store/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Secrets
+.env

